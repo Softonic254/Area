@@ -1,0 +1,45 @@
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: dotted solid black;
+    color: blueviolet;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    font-size: 25px;
+}
+
+.container{
+    box-shadow: 0px 0px 15px 2px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 40%;
+    background-color: rgb(243, 243, 243);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons>button{
+    margin: 10px;
+    font-size: 20px;
+    background-color: darkcyan;
+    color: white;
+    font-weight: 500;
+    border: 0px;
+    border-radius: 4px;
+    height: 40px;
+    width: 130px;
+    margin: 30px;
+}
+
+.buttons>button:hover{
+    background-color: blue;
+    font-size: 150%;
+}
