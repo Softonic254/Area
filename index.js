@@ -1,7 +1,6 @@
 function square() {
     let side = prompt("Enter the length of one side");
 
-
     if (side != "") {
         if (isNaN(side)) {
             alert("The value of side should be a number.")
